@@ -4,7 +4,7 @@ import { DropletIcon, LeafIcon, BarChartIcon, SmartphoneIcon, HomeIcon, Trending
 export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const [activeTab, setActiveTab] = useState('home')
-  const [username, setUsername] = useState('Jorge Bustamante')
+  const username = 'Jorge Bustamante'
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
